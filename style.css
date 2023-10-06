@@ -1,0 +1,21 @@
+body {
+    padding: 250px;
+  }
+
+  #loader {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid white;
+    border-top-color: red;
+    border-right-color: green;
+    border-bottom-color: blue;
+    border-left-color: orange;
+    animation: rotate 1s infinite;
+  }
+
+  @keyframes rotate {
+    100% {
+      rotate: 1080deg;
+    }
+  }
